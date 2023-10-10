@@ -1,0 +1,24 @@
+body {
+    background-color:beige;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #0802A3;
+    text-indent: 30px
+}
+h2 {
+    text-align: center;
+    color: #FF4B91;
+    text-transform: initial;
+}
+h3 {
+    text-align: center;
+    color: #FF7676;
+    text-decoration: line-through;
+}
+p {
+    text-align: center;
+    color: #FFCD4B;
+    letter-spacing: normal;
+}

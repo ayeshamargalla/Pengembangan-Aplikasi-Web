@@ -1,0 +1,28 @@
+body{background: #F5F5DC url() no-repeat top right}
+body{
+    font-family: Arial, Heltevica, sans-serif;
+}
+
+h2, h3{
+    font-family: "Times New Roman", Times, serif;
+    color: #FFB000;
+}
+h3{
+    font-style: italic;
+}
+li:first-child a{
+    color: #004225;
+}
+li:last-child a{
+    color: #FFCF9D;
+}
+li:nth-child(4n-1) a{
+    color: #D2DE32;
+    font-size: 200%;
+}
+p:first-of-type{
+    color: #FF8080;
+}
+p:last-of-type{
+    color: #CDFAD5;
+}

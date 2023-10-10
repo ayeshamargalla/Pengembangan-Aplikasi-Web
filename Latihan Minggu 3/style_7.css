@@ -1,0 +1,19 @@
+.fak:link{
+    color: #FF8080;
+}
+.fak:hover{
+    color: #FFCF96;
+    font-size: 1000%
+}
+.fak:active{
+    font-style: italic;
+}
+.fak:visited{
+    color: #CDFAD5;
+}
+p:first-of-type{
+    color: #FF8080;
+}
+p:last-of-type{
+    color: #CDFAD5;
+}
