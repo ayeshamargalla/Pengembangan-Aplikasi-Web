@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latian WEB Bersama Pak Aman</title>
+</head>
+<body>
+    <h1>Apa yang Dapat Dilakukan JavaScript?</h1>
+    <img id="myImage" onclick="changeImage ()" src="HD wallpaper_ game over text, vaporwave, statue, water, spaceship, pixel art.jpg" width="100" height="180">
+    <p>CLick the image to change image.</p>
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if(image.src.match("bulbon")){
+                image.src = "HD wallpaper_ game over text, vaporwave, statue, water, spaceship, pixel art.jpg"
+            }else {
+                image.src = "HD wallpaper_ statue, marble, Florence, Michelangelo, David.jpeg";
+            }
+        }
+    </script>
+</body>
